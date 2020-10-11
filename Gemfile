@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
+gem 'rails'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'devise', '~> 3.5', '>= 3.5.2'
+gem 'devise'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -35,6 +35,8 @@ gem 'haml', '~> 5.2'
 gem 'carrierwave', '~> 2.1'
 
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
+
+gem 'railties'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
